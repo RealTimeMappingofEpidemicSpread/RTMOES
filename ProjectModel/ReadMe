@@ -1,1 +1,9 @@
 This folder contains all files regarding epidemic spread and mapping.
+
+Some abstract steps for tracking spread:
+1. Imagine the area divided in a grid of 3 X 3 (like a tic tac toe grid)
+2. Now suppose the centre tile if affected so this make all surrounding 8 tiles probable to be affected.
+3. Now we know these 9 tiles are to be focussed rather than anywhere else.
+4. Now using data sources from hospitals and apis like OpenWeather and google weather(past historic data) we can narrow down area.
+5. Supoose expected wind direction is North-East this makes tiles 2,3 and 6 more severe than others.
+6. Using other parameters like heat mapping of town and other algortihms we can predict and map the spread on real time basis.
